@@ -16,6 +16,10 @@
 		D567A0A22850C63B00D1161D /* GradientRectangles.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567A0A12850C63B00D1161D /* GradientRectangles.swift */; };
 		D567A0A52850C65C00D1161D /* PathView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567A0A42850C65C00D1161D /* PathView.swift */; };
 		D567A0A82850C68A00D1161D /* CurvesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D567A0A72850C68A00D1161D /* CurvesView.swift */; };
+		D5B96CA528577D2100C7B137 /* CustomGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B96CA428577D2100C7B137 /* CustomGridView.swift */; };
+		D5B96CA928577D5000C7B137 /* VerticalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B96CA828577D5000C7B137 /* VerticalGridView.swift */; };
+		D5B96CAC28577D6000C7B137 /* HorizontalGridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B96CAB28577D6000C7B137 /* HorizontalGridView.swift */; };
+		D5B96CAF28577D8300C7B137 /* Award.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5B96CAE28577D8300C7B137 /* Award.swift */; };
 		D5F6148E2854CEE200C92738 /* PinwheelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5F6148D2854CEE100C92738 /* PinwheelView.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +35,10 @@
 		D567A0A12850C63B00D1161D /* GradientRectangles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientRectangles.swift; sourceTree = "<group>"; };
 		D567A0A42850C65C00D1161D /* PathView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathView.swift; sourceTree = "<group>"; };
 		D567A0A72850C68A00D1161D /* CurvesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurvesView.swift; sourceTree = "<group>"; };
+		D5B96CA428577D2100C7B137 /* CustomGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomGridView.swift; sourceTree = "<group>"; };
+		D5B96CA828577D5000C7B137 /* VerticalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalGridView.swift; sourceTree = "<group>"; };
+		D5B96CAB28577D6000C7B137 /* HorizontalGridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalGridView.swift; sourceTree = "<group>"; };
+		D5B96CAE28577D8300C7B137 /* Award.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Award.swift; sourceTree = "<group>"; };
 		D5F6148D2854CEE100C92738 /* PinwheelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinwheelView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -68,10 +76,8 @@
 				D567A08C2850C59F00D1161D /* StarterView.swift */,
 				D567A09B2850C60A00D1161D /* MainView.swift */,
 				D567A09E2850C62600D1161D /* AwardsView.swift */,
-				D567A0A12850C63B00D1161D /* GradientRectangles.swift */,
-				D567A0A42850C65C00D1161D /* PathView.swift */,
-				D567A0A72850C68A00D1161D /* CurvesView.swift */,
-				D5F6148D2854CEE100C92738 /* PinwheelView.swift */,
+				D5B96C9F28577B4900C7B137 /* Awards */,
+				D5B96CA328577CE900C7B137 /* Grids */,
 				D567A08E2850C5A100D1161D /* Assets.xcassets */,
 				D567A0932850C5A100D1161D /* Info.plist */,
 				D567A0902850C5A100D1161D /* Preview Content */,
@@ -85,6 +91,28 @@
 				D567A0912850C5A100D1161D /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D5B96C9F28577B4900C7B137 /* Awards */ = {
+			isa = PBXGroup;
+			children = (
+				D567A0A12850C63B00D1161D /* GradientRectangles.swift */,
+				D567A0A42850C65C00D1161D /* PathView.swift */,
+				D567A0A72850C68A00D1161D /* CurvesView.swift */,
+				D5F6148D2854CEE100C92738 /* PinwheelView.swift */,
+			);
+			path = Awards;
+			sourceTree = "<group>";
+		};
+		D5B96CA328577CE900C7B137 /* Grids */ = {
+			isa = PBXGroup;
+			children = (
+				D5B96CA428577D2100C7B137 /* CustomGridView.swift */,
+				D5B96CA828577D5000C7B137 /* VerticalGridView.swift */,
+				D5B96CAB28577D6000C7B137 /* HorizontalGridView.swift */,
+				D5B96CAE28577D8300C7B137 /* Award.swift */,
+			);
+			path = Grids;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,8 +184,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5B96CA528577D2100C7B137 /* CustomGridView.swift in Sources */,
+				D5B96CAF28577D8300C7B137 /* Award.swift in Sources */,
 				D567A09F2850C62600D1161D /* AwardsView.swift in Sources */,
+				D5B96CA928577D5000C7B137 /* VerticalGridView.swift in Sources */,
 				D567A0A82850C68A00D1161D /* CurvesView.swift in Sources */,
+				D5B96CAC28577D6000C7B137 /* HorizontalGridView.swift in Sources */,
 				D5F6148E2854CEE200C92738 /* PinwheelView.swift in Sources */,
 				D567A0A52850C65C00D1161D /* PathView.swift in Sources */,
 				D567A0A22850C63B00D1161D /* GradientRectangles.swift in Sources */,
